@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `carmessage`;
+CREATE TABLE `carnum` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `carNum` int ,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
